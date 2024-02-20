@@ -67,5 +67,9 @@ this.questionMaxIndex=this.questions.length
     return result
   }
 
+  reload(){
+    window.location.reload()
+  }
 
 }
+

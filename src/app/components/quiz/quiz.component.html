@@ -20,5 +20,9 @@
    <div *ngIf="finished" class="quiz__results">
      <h1>O seu resultado é:</h1>
      <p>{{answersSelected}}</p>
+     <div (click)="reload()" class="refresh">
+      <i class="fa-solid fa-rotate" style="color: #9487A3;"></i>
+     </div>
    </div>
+<app-footer></app-footer>
 </div>

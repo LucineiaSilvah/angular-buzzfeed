@@ -1,55 +1,57 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Que Tipo de Dorameiro(a) voçê é ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual trama voçê prefere?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Romançe", "alias":"A"},
+        {"id": 2, "name":"Comédia", "alias":"B"},
+        {"id": 3, "name":"Ação", "alias":"A"},
+        {"id": 4, "name":"Aventura", "alias":"A"},
+        {"id": 5, "name":"terror", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Quando esta assitindo torce para o casal terminar junto?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Sim", "alias":"B"},
+        {"id": 2, "name":"Não", "alias":"A"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Voçê torce muito para o beijo acontecer?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Não", "alias":"A"},
+        {"id": 2, "name":"Sim", "alias":"A"},
+        {"id": 3, "name":"Tanto faz", "alias":"A"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual tipo de luta gosta mais?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"luta com espadas", "alias":"A"},
+        {"id": 2, "name":"Artes Marcias", "alias":"A"},
+        {"id": 3, "name":"Armas", "alias":"A"},
+        {"id": 4, "name":"Nunhuma", "alias":"B"}
       ]
     },
+
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "O Que prefere ao assitir um Drama?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Mortes", "alias":"A"},
+        {"id": 2, "name":"Lutas", "alias":"A"},
+        {"id": 3, "name":"Romançe", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você é um Dorameiro Warrior",
+    "B": "Você é Dorameiro Cute !"
   }
 }

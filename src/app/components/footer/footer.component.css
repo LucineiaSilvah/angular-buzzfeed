@@ -1,0 +1,17 @@
+.footer__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 20%;
+}
+.footer__container > span > a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:#f0edf4;
+  text-shadow: -2px 4px 6px black;
+  font-weight: bold;
+  margin-left: 10px;
+
+}
